@@ -67,3 +67,43 @@ const language = "JavaScript";
 const message = `I love ${language}`
 
 console.log(message); // "I love JavaScript"
+
+const string5 = "I know Interpolation Interpolation";
+
+const username2 = "Andriy";
+
+string5.replace("Interpolation", username2);
+
+console.log(string5.replace("Interpolation", username2)); // "I know Andriy"
+
+console.log(string5.replaceAll("Interpolation", username2)); // "I know Andriy"
+
+// Завдання
+
+const adminText = `Hello, I am an Admin`;
+const userText = `Hello, I an a User`;
+
+console.log(adminText.replace("Admin", "User")); // "Hello, I am a User"
+console.log(userText.replace("User", "Admin")); // "Hello, I am an Admin"
+
+const string6 = "I am a String";
+
+console.log(string6.indexOf("a"));
+
+// Завдання
+
+const strName1 = "Hello";
+const strName2 = "World";
+
+const text3 = "Hello, my name is Bohan. Hello, hello, hello!";
+
+console.log(text3.replaceAll(strName1, strName2)); // "World, my name is Bohan. World, world, world!"
+
+
+const name3 = "Bohdan Yaronnyi";
+const age3 = 26;
+const slills = "JS, HTML, CSS";
+
+const bio = `My name is ${name3}. I am ${age3} years old. My skills are: ${slills}.`;
+
+console.log(bio); // "My name is Bohdan Yaronnyi. I am 26 years old. My skills are: JS, HTML, CSS."
